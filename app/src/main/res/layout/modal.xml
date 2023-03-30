@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.lifepointcalculator.SharedViewModel" />
+    </data>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Modal">
+
+    <TextView
+        android:id="@+id/Life"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8000"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/cambiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/mitad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/2" />
+
+</LinearLayout>
+</layout>

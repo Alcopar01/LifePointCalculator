@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LifePointCalculator</string>
+    <string name="Player1">8000</string>
+    <string name="Player2">8000</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
